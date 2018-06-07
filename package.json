@@ -10,7 +10,8 @@
     "build": "webpack --config webpack.prod.conf.js",
     "start": "npm run dev",
     "html": "webpack-dev-server --inline --progress --hot --config webpack.html.config.js`",
-    "config": "webpack --config webpack.config.js"
+    "config": "webpack --config webpack.config.js",
+    "file": "webpack --config webpack.file.loader.js"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
